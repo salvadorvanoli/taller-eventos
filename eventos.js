@@ -9,7 +9,6 @@ button.addEventListener("click", function(){
 });
 
 container.addEventListener("click", function(){
-    event.stopPropagation();
     alert('Hola! Soy el div');
 });
 
